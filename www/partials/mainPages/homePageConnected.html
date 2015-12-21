@@ -1,0 +1,20 @@
+<ion-view view-title="MonkeyVPN Connected">
+    <ion-content class="padding">
+        <div class="connectionCon">
+            <div class="connectStatus">*CONNECTED</div>
+            <div class="connectInfo">
+                <div class="statusLabel">Status</div>
+                <div class="connectIP">IP: 127.0.0.1</div>
+                <div class="connectProtocol">PPTP</div>
+                <div class="connectNATFW">Active</div>
+                <div class="connectTraffic">120 MB of 500MB</div>
+            </div>
+            <button ng-click="getTraffic()" class="button button-block button-positive">
+                Get more Traffic
+            </button>
+        </div>
+        <button ng-click="disconnect()" class="button button-block button-positive">
+            Disconnect
+        </button>
+    </ion-content>
+</ion-view>

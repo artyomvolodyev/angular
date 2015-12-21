@@ -1,0 +1,95 @@
+/* Empty. Add your own CSS if you like */
+
+.mapLocBox {
+    display: block;
+    height: 340px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.mapBox{
+    display: inline-block;
+    position: relative;
+    height: 255px;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.locationTxtBox{
+    position: relative;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 110px;
+}
+
+.locationTop{
+    font-size: large;
+    position: relative;
+    text-align: center;
+}
+
+.localtionSub{
+    text-align: center;
+}
+
+.btmSignupCon{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.customHeightFooter{
+    height: 85px;
+}
+
+.smallRightLabel{
+    float: right;
+    font-size: smaller;
+    margin-bottom: 7px;
+    margin-top: -10px;
+}
+
+.topLabelText{
+    padding: 20px 0;
+    font-weight: bold;
+}
+.labelText{
+    padding: 20px 0;
+    font-weight: bold;
+    color: #8c8c8c;
+}
+.content-background-color{
+    background-color: #F6F6F6 !important;
+}
+.img-center{
+    margin: 0 auto;
+    width: 100px
+}
+
+.button-rounded {
+    border-radius: 5px 5px 5px 5px !important;
+    -moz-border-radius: 5px 5px 5px 5px !important;
+    -webkit-border-radius: 5px 5px 5px 5px  !important;
+    /*border: 0px solid #000000;*/
+}
+.input-center{
+    margin: 5px auto;
+}
+
+.button-width{
+    width: 200px;
+    max-width: 100%
+}
+.social-button-with {
+    width: 140px;
+    max-width: 45%;
+}
+
+.button-color{
+    background-color: #d7d7d7;
+    color: #727272;
+    font-weight: bold;
+}
+

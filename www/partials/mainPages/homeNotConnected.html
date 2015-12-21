@@ -1,0 +1,24 @@
+<ion-view view-title="MonkeyVPN">
+    <form ng-submit="connectVpn()">
+        <ion-content class="padding">
+            <div class="mapLocBox">
+                <div class="mapBox"></div>
+                <div class="locationTxtBox">
+                    <div class="locationTop">Los Angeles</div>
+                    <div class="localtionSub">CA, USA</div>
+                </div>
+            </div>
+            <div class="list">
+                <label class="item item-input item-select">
+                    <div class="input-label">
+                        Country
+                    </div>
+                    <select ng-model="selectedHotspot" ng-options="hotspot.name for hotspot in hotspots"></select>
+                </label>
+            </div>
+            <button ng-click="connect()" class="button button-block button-positive">
+                Connect
+            </button>
+        </ion-content>
+    </form>
+</ion-view>

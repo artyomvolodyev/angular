@@ -1,0 +1,33 @@
+<ion-view view-title="MonkeyVPN">
+    <ion-content class="padding content-background-color">
+        <div class="loginCon button-width input-center">
+            <img src="../../img/monky.png" class="img-responsive img-center">
+            <div class="topLabelText text-center">Login</div>
+            <form class="registration_form" name="loginForm" ng-submit="login(credentials)" novalidate>
+                <div class="list button-width input-center">
+                    <label class="item item-input button-rounded">
+                        <input required ng-model="credentials.email" name="email" type="email" placeholder="Email">
+                     </label>
+                </div>
+                <div class="list button-width input-center">
+                    <label class="item item-input button-rounded">
+                        <input required ng-model="credentials.password" name="password" type="password" placeholder="Password">
+                        <span class="error" ng-show="myForm.input.$error.required">Required!</span><br>
+                    </label>
+                </div>
+                <small class="pull-right">Forgot Password?</small>
+                <div class="clearfix"></div>
+                <div class=" text-center">
+                    <button type="submit" class="button button-rounded button-balanced button-width">Login</button>
+                </div>
+            </form>
+            <div class="customHeightFooter">
+                <small class="pull-right">Need an account?</small>
+                <div class="clearfix"></div>
+                <div class="text-center">
+                    <button ng-click="goToSignup()" class="button button-color button-rounded button-width">Signup here</button>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
